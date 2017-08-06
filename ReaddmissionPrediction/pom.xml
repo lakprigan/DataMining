@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com</groupId>
+  <artifactId>ReaddmissionPrediction</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/weka-stable -->
+<!-- <dependency>
+    <groupId>nz.ac.waikato.cms.weka</groupId>
+    <artifactId>weka-stable</artifactId>
+    <version>3.6.8</version>
+</dependency> -->
+<!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/weka-dev -->
+<dependency>
+    <groupId>nz.ac.waikato.cms.weka</groupId>
+    <artifactId>weka-dev</artifactId>
+    <version>3.7.5</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/tw.edu.ntu.csie/libsvm -->
+<!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/LibSVM -->
+<dependency>
+    <groupId>nz.ac.waikato.cms.weka</groupId>
+    <artifactId>LibSVM</artifactId>
+    <version>1.0.4</version>
+</dependency>
+
+
+</dependencies>
+</project>
